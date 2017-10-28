@@ -69,6 +69,6 @@ n_jobs: целое
 
 *score(X, y[, sample_weight])*: возвращает среднюю точность тестовых данных и меток.
 
-*set_params(*params)*: необходимо задать параметры для этой оценки.
+*set_params(params)*: необходимо задать параметры для этой оценки.
 
 ![](https://raw.githubusercontent.com/Kursaitova/KNN/master/PIC.png)
