@@ -77,4 +77,5 @@ metric_params:
 
 * *set_params(params)*: необходимо задать параметры для этой оценки.
 
-
+![](https://raw.githubusercontent.com/Kursaitova/KNN/master/knn1.png "kNN")
+![](https://raw.githubusercontent.com/Kursaitova/KNN/master/knn3.png "kNN")
