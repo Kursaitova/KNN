@@ -79,5 +79,5 @@
 
 * *set_params(params)*: необходимо задать параметры для этой оценки.
 
-![](https://raw.githubusercontent.com/Kursaitova/KNN/master/wine1.png "kNN")
-![](https://raw.githubusercontent.com/Kursaitova/KNN/master/wine2.png "kNN")
+![](https://raw.githubusercontent.com/Kursaitova/KNN/master/wine1.PNG "kNN")
+![](https://raw.githubusercontent.com/Kursaitova/KNN/master/wine2.PNG "kNN")
