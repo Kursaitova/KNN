@@ -24,9 +24,9 @@
 * *[callable]* (пользовательская функция): функция, определяемая пользователем, которая в качестве входных данных использует массив расстояний и возвращает массив такого же размера, содержащий веса.
 
 ```
-	for weights in ['uniform', 'distance']:
-	clf = neighbors.KNeighborsClassifier(n_neighbors, weights=weights)
-	clf.fit(X, y)
+for weights in ['uniform', 'distance']:
+    clf = neighbors.KNeighborsClassifier(n_neighbors, weights=weights)
+    clf.fit(X, y)
 ```
 
 **algorithm** : *{‘auto’, ‘ball_tree’, ‘kd_tree’, ‘brute’}*. Алгоритм, используемый для вычисления ближайших соседей:
