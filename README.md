@@ -9,7 +9,9 @@
 
 *Weight* = «расстояние»: значение веса равно обратному расстоянию от классифицируемой точки до всех остальных точек окрестности. Обычно, для вычисления весов используется функция расстояния.
 
-**_KNeighborsClassifier(n_neighbors=5, weights=’uniform’, algorithm=’auto’, leaf_size=30, p=2, metric=’minkowski’, metric_params=None, n_jobs=1, **kwargs)_**
+```
+KNeighborsClassifier(n_neighbors=5, weights=’uniform’, algorithm=’auto’, leaf_size=30, p=2, metric=’minkowski’, metric_params=None, n_jobs=1, **kwargs)
+```
 
 **Параметры:**
 
