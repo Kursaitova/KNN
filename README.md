@@ -66,6 +66,7 @@ for weights in ['uniform', 'distance']:
     clf = neighbors.KNeighborsClassifier(n_neighbors, weights=weights)
     clf.fit(X, y)
 ```
+где *Х* -выборка без названия классов, *у* - классы для каждого элемента выборки и тип классификации *['uniform', 'distance']*.
 
 **algorithm** : *{‘auto’, ‘ball_tree’, ‘kd_tree’, ‘brute’}*. Алгоритм, используемый для вычисления ближайших соседей:
 
