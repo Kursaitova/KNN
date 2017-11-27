@@ -25,6 +25,25 @@ wine = datasets.load_wine()
 ```
 KNeighborsClassifier(n_neighbors=5, weights=’uniform’, algorithm=’auto’, leaf_size=30, p=2, metric=’minkowski’, metric_params=None, n_jobs=1, **kwargs)
 ```
+Код программы:
+
+```
+# количество соседей
+n_neighbors = 15
+
+# импортируем данные выборки 
+iris = datasets.load_wine()
+
+# будем рассматривать только первые две характеристики Вина 
+X = iris.data[:, :2]
+y = iris.target
+
+h = .02  # Задаем размер шага
+
+# Задаем цветовые характеристики карт 
+cmap_light = ListedColormap(['#FFAAAA', '#AAFFAA', '#AAAAFF']) #цвет областей
+cmap_bold = ListedColormap(['#FF0000', '#00FF00', '#0000FF']) #цвет Ирисов из выборки 
+```
 
 **Параметры:**
 
