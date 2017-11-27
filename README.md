@@ -40,9 +40,9 @@ y = iris.target
 
 h = .02  # Задаем размер шага
 
-# Задаем цветовые характеристики карт 
-cmap_light = ListedColormap(['#FFAAAA', '#AAFFAA', '#AAAAFF']) #цвет областей
-cmap_bold = ListedColormap(['#FF0000', '#00FF00', '#0000FF']) #цвет Ирисов из выборки 
+# рисуем цветовые карты 
+cmap_light = ListedColormap(['#FFAAAA', '#AAFFAA', '#AAAAFF']) #цвет областей объектов
+cmap_bold = ListedColormap(['#FF0000', '#00FF00', '#0000FF']) #цвет точек-объектов выборки 
 ```
 
 **Параметры:**
